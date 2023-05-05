@@ -1,89 +1,91 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>pagina web</title>
     <!--css-->
-<link rel="stylesheet" href="css/styles.css" type="text/css">
-<link id="theme" rel="stylesheet" href="css/green.css" type="text/css">
-<!--jquery-->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<!--slider-->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
-<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
-<!--scripts-->
-<script type="text/javascript" src="js/main.js"></script>
-<!--moment-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/locale/es-mx.min.js"></script>
-</head>
-<body>
-
+    <link rel="stylesheet" href="css/styles.css" type="text/css" />
+    <link id="theme" rel="stylesheet" href="css/green.css" type="text/css" />
+    <!--jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!--slider-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css"
+    />
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <!--scripts-->
+    <script type="text/javascript" src="js/main.js"></script>
+    <!--moment-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/locale/es-mx.min.js"></script>
+  </head>
+  <body>
     <div id="selector-theme">
-        <div id="to-green"></div>
-        <div id="to-red"></div>
-        <div id="to-blue"></div>
+      <div id="to-green"></div>
+      <div id="to-red"></div>
+      <div id="to-blue"></div>
     </div>
     <section id="global">
-        <!--contenido inicial-->
-        <header>
-            <div id="logo">
-                <h1>Pagina web</h1>
-            </div>
-            <div class="clearfix"></div>
-            <nav id="menu">
-                <ul>
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Reloj</a></li>
-                    <li><a href="#" >Contacto</a></li>
-                    <li><a href="#">Sobre mi</a></li>
-                </ul>
-            </nav>
-        </header>
-        <!--imagen principal-->
-        <div id="slider">
-            <div class="galeria">
-                <div><img src="img/hojas.jpg" title="hojas" /></div>
-                <div><img src="img/rojo.jpg" title="rojo" /></div>
-                <div><img src="img/cielo.jpg" title="cielo" /></div>
-            </div>
+      <!--contenido inicial-->
+      <header>
+        <div id="logo">
+          <h1>Pagina web</h1>
         </div>
-            <section id="content">
-                <div id="posts">
-                    <!--cargar post desde json-->
-                </div>
-                <aside id="sidebar">
-                    <div class="about">
-                        <h4><span>Quien soy</span></h4>
-                        <img src="img/caracol.jpg">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt alias aperiam, impedit nobis, facilis illo cupiditate, deleniti fuga magnam fugiat beatae ab pariatur aliquid autem nisi repudiandae hic tempora fugit!</p>
-                    </div>
-                    <div id="login">
-                        <h4><span>Registrate</span></h4>
-                        <form>
-                            <label for="name">
-                                Nombre
-                            </label>
-                            <input type="text" name="name">
-                            <label for="email">
-                                Correo
-                            </label>
-                            <input type="text" name="email">
-                            <label for="password">
-                                Password
-                            </label>
-                            <input type="password" name="password">
-                            <input type="submit" value="Enviar">
-                        </form>
-                    </div>
-                </aside>
-                <div class="clearfix"></div>
-            </section>
+        <div class="clearfix"></div>
+        <nav id="menu">
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="reloj.html">Reloj</a></li>
+            <li><a href="contact.html">Contacto</a></li>
+            <li><a href="about.html">Sobre mi</a></li>
+          </ul>
+        </nav>
+      </header>
+      <!--imagen principal-->
+      <div id="slider">
+        <div class="galeria">
+          <div><img src="img/hojas.jpg" title="hojas" /></div>
+          <div><img src="img/rojo.jpg" title="rojo" /></div>
+          <div><img src="img/cielo.jpg" title="cielo" /></div>
+        </div>
+      </div>
+      <section id="content">
+        <div id="posts">
+          <!--cargar post desde json-->
+        </div>
+        <aside id="sidebar">
+          <div id="about">
+            <h4><span>Quien soy</span></h4>
+            <img src="img/caracol.jpg" />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
+              alias aperiam, impedit nobis, facilis illo cupiditate, deleniti
+              fuga magnam fugiat beatae ab pariatur aliquid autem nisi
+              repudiandae hic tempora fugit!
+            </p>
+          </div>
+          <div id="login">
+            <h4><span>Registrate</span></h4>
+            <form>
+              <label for="name"> Nombre </label>
+              <input type="text" name="name" id="form_name" />
+              <label for="email"> Correo </label>
+              <input type="text" name="email" />
+              <label for="password"> Password </label>
+              <input type="password" name="password" />
+              <input type="submit" value="Enviar" />
+            </form>
+          </div>
+        </aside>
+        <div class="clearfix"></div>
+      </section>
     </section>
     <footer>
-        Curso de Javascript  
+      Curso de Javascript
+      <a href="#" class="subir">Ir al inicio</a>
     </footer>
-</body>
+  </body>
 </html>
